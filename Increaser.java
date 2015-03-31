@@ -1,5 +1,9 @@
 package day17;
 
+/*what would you change to make sure the last value of the counter is what it should be?
+ * A: Added synchronized key word to both methods of Counter class - increase () and getCount();
+*/
+
 public class Increaser implements Runnable {
 	private Counter c;
 	

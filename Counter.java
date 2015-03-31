@@ -2,10 +2,10 @@ package day17;
 
 public class Counter {
 	private int n = 0;
-	public void increase() {
+	public synchronized void increase() {
 		n++;
 	}
-	public int getCount() {
+	public synchronized int getCount() {
 		return n;
 	}
 }
